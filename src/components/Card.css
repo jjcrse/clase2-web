@@ -1,0 +1,40 @@
+.card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 14px;
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    margin: 8px 0;
+  }
+  
+  /* Hover sutil, nada exagerado */
+  .card:hover {
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+  }
+  
+  /* Nombre del producto */
+  .card h1 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #2450A6;
+    margin-bottom: 6px;
+  }
+  
+  /* Precio claro y protagonista */
+  .card h2 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #BF3467;
+    margin-bottom: 10px;
+  }
+  
+  /* Descripción legible y corta */
+  .card h3 {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.45;
+  }
+  
